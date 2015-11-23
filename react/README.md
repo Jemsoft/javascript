@@ -117,6 +117,10 @@
 
 ## Quotes
   - Always use double quotes (`"`) for JSX attributes, but single quotes for all other JS.
+
+  > Why? JSX attributes [can't contain escaped quotes](http://eslint.org/docs/rules/jsx-quotes), so double quotes make conjunctions like `"don't"` easier to type.
+  > Regular HTML attributes also typically use double quotes instead of single, so JSX attributes mirror this convention.
+
     ```javascript
     // bad
     <Foo bar='bar' />
@@ -270,7 +274,7 @@
     text: 'Hello World',
   };
   
-  export default class Link extends Component {
+  class Link extends Component {
     static methodsAreOk() {
       return true;
     }
@@ -282,6 +286,8 @@
   
   Link.propTypes = propTypes;
   Link.defaultProps = defaultProps;
+  
+  export default Link;
   ```
 
   - Ordering for React.createClass:
