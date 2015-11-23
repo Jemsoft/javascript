@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-airbnb",
+  "name": "eslint-config-jemsoft",
   "version": "1.0.0",
-  "description": "Airbnb's ESLint config, following our styleguide",
+  "description": "Jemsofts's ESLint config, following Airbnbs styleguide",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/airbnb/javascript"
+    "url": "https://github.com/jemsoft/javascript"
   },
   "keywords": [
     "eslint",
@@ -29,13 +29,18 @@
       "name": "Jordan Harband",
       "email": "ljharb@gmail.com",
       "url": "http://ljharb.codes"
+    },
+    {
+      "name": "Dylan Lundy",
+      "email": "dylan.lundy@jemsoft.com",
+      "url": "http://jemsoft.co"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/airbnb/javascript/issues"
+    "url": "https://github.com/jemsoft/javascript/issues"
   },
-  "homepage": "https://github.com/airbnb/javascript",
+  "homepage": "https://github.com/jemsoft/javascript",
   "devDependencies": {
     "babel-tape-runner": "1.2.0",
     "eslint": "^1.8.0",
