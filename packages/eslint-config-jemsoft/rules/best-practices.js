@@ -73,8 +73,6 @@ module.exports = {
     // disallow use of octal escape sequences in string literals, such as
     // var foo = 'Copyright \251';
     'no-octal-escape': 2,
-    // disallow reassignment of function parameters
-    'no-param-reassign': 2,
     // disallow use of process.env
     'no-process-env': 0,
     // disallow usage of __proto__ property
